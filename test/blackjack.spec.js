@@ -3,8 +3,8 @@ const assert = require('assert'),
   { createDeck, draw, score } = require('../blackjack')
 
 describe('blackjack.js', function () {
-  it('produces a deck with a length of 52', function () {
-    assert.strictEqual(createDeck().length, 52)
+  it('produces a deck with a length of 53', function () {
+    assert.strictEqual(createDeck().length, 53)
   })
 
   it('has a draw function which reduces the array length by 1', function () {
